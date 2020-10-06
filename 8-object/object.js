@@ -4,11 +4,12 @@ function arrayToObject(array) {
     const thisYear = now.getFullYear();
     let obj = {};
     for (let i = 0; i < array.length; i++) {
+      let age;
       let person = {
         firstName: array[i][0],
         lastName: array[i][1],
         gender: array[i][2],
-        age: array[i][3] ? thisYear - array[i][3] : "Invalid Birth Year"
+        age: array[i][3] && array[i][3] < thisYear ? thisYear - array[i][3] : "Invalid Birth Year"
       }
       let name = i + 1 + ". " + person.firstName + " " + person.lastName;
       obj[name] = person
