@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Tiare Handwash",
+      "description": "Untuk bersih",
+      "image": "handwash.png",
+      "price": "$12.22"
+    },
+    {
+      "id": 2,
+      "name": "JBL Speaker",
+      "description": "Untuk denger lagu",
+      "image": "speaker.png",
+      "price": "$12.22"
+    },
+    {
+      "id": 3,
+      "name": "Google Home",
+      "description": "Produk Google",
+      "image": "google-home.png",
+      "price": "$12.22"
+    }
+  ]
+}

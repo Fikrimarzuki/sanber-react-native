@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "shoes",
+      "description": "Untuk gaya",
+      "image": "shoes.png"
+    },
+    {
+      "id": 2,
+      "name": "chair",
+      "description": "Untuk duduk",
+      "image": "chair.png"
+    }
+  ]
+}
